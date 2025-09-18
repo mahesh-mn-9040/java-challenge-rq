@@ -1,0 +1,21 @@
+spring.application.name: employee-api
+server.port: 8111
+employee.server.url: http://localhost:8112/api/v1/employee
+
+resilience4j:
+  retry:
+    instances:
+      employeeServerRetryForTooManyReq:
+        maxAttempts: 3
+        waitDuration: 90s
+        retryExceptions:
+          - org.springframework.web.client.HttpClientErrorException$TooManyRequests
+
+      employeeServerConnectionRetry:
+        maxAttempts: 15
+        waitDuration: 2s
+
+logging:
+  level:
+    com.reliaquest.api: DEBUG
+    io.github.resilience4j.retry: DEBUG

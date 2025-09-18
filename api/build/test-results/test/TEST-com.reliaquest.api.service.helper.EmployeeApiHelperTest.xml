@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.reliaquest.api.service.helper.EmployeeApiHelperTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2025-09-18T22:13:26" hostname="JC02564VY2" time="0.498">
+  <properties/>
+  <testcase name="deleteEmployeeApiCall_Success()" classname="com.reliaquest.api.service.helper.EmployeeApiHelperTest" time="0.47"/>
+  <testcase name="getAllEmployeesApiCall_Success()" classname="com.reliaquest.api.service.helper.EmployeeApiHelperTest" time="0.004"/>
+  <testcase name="getEmployeeByIdApiCall_NotFound()" classname="com.reliaquest.api.service.helper.EmployeeApiHelperTest" time="0.007"/>
+  <testcase name="getAllEmployeesApiCall_TooManyRequests()" classname="com.reliaquest.api.service.helper.EmployeeApiHelperTest" time="0.002"/>
+  <testcase name="getEmployeeByIdApiCall_Success()" classname="com.reliaquest.api.service.helper.EmployeeApiHelperTest" time="0.001"/>
+  <testcase name="createEmployeeApiCall_Success()" classname="com.reliaquest.api.service.helper.EmployeeApiHelperTest" time="0.001"/>
+  <testcase name="deleteEmployeeApiCall_TooManyRequests()" classname="com.reliaquest.api.service.helper.EmployeeApiHelperTest" time="0.002"/>
+  <testcase name="createEmployeeApiCall_TooManyRequests()" classname="com.reliaquest.api.service.helper.EmployeeApiHelperTest" time="0.002"/>
+  <testcase name="deleteEmployeeApiCall_Failed()" classname="com.reliaquest.api.service.helper.EmployeeApiHelperTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
