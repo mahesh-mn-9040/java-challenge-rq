@@ -1,3 +1,5 @@
+This implementation provides a complete employee management REST API with resilience patterns, caching, and comprehensive test coverage.
+
 API test evidences:
 
 1.getAllEmployee
